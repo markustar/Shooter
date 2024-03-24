@@ -1,0 +1,1067 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1709471505381492, "dur": 175832, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709471505381898, "dur": 2882, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709471505384782, "dur": 171323, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709471505556107, "dur": 1216, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709471505557669, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1709471505409247, "dur":704, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505409959, "dur":276, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1709471505410281, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1709471505410322, "dur":275, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1709471505410618, "dur":968, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505411586, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543428, "dur":99, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543527, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543596, "dur":33, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543629, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543651, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543653, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543674, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543676, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543696, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543698, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543717, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543719, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543739, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543741, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543759, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543761, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543782, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543791, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505543833, "dur":1761, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1709471505410718, "dur":878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505411599, "dur":3687, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505415297, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709471505415300, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505415342, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709471505415350, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505415415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505416266, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709471505418129, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1709471505418151, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505418179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505418202, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1709471505419110, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1709471505419131, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505419150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505419159, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1709471505420386, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls.exe" }}
+,{ "pid":12345, "tid":1, "ts":1709471505420404, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505420424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505420429, "dur":13428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls.exe" }}
+,{ "pid":12345, "tid":1, "ts":1709471505433878, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505433902, "dur":5639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505439552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505439965, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505442110, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505442127, "dur":1714, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505443853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505443862, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505444676, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505444691, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505444758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505444763, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505445719, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505445936, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505446121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505446126, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505447147, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505447167, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505447186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505447189, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505447985, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505447999, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505448020, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505448030, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505448970, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505448984, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505449004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505449012, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505450170, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505450182, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505450200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505450216, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505451039, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505451062, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505451081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505451086, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505452752, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505452773, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505452796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505452820, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505455114, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505455246, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505455299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505455304, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456076, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456132, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456180, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456907, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456966, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505456992, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505462333, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505462874, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505463315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505463319, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505465706, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505465720, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505465767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505465773, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505469623, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505469638, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505469734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505469740, "dur":20498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505490263, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505490338, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505490367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505490371, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709471505493375, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1709471505493410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505493634, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1709471505494921, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1709471505494946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505494977, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1709471505496368, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1709471505496388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505496394, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1709471505497485, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505497505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505497586, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505498172, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505498193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505498202, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505499479, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1709471505499501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505499507, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1709471505500555, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505500573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505501290, "dur":5369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505506676, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505506694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505506784, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505509277, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505509297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505509314, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505511601, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1709471505511639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505511644, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1709471505512543, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.caw" }}
+,{ "pid":12345, "tid":1, "ts":1709471505512559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505512564, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.caw" }}
+,{ "pid":12345, "tid":1, "ts":1709471505514060, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505514083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505514503, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.vis" }}
+,{ "pid":12345, "tid":1, "ts":1709471505514908, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505514929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505515283, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505516894, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505516914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505516930, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505518418, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505518437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505518443, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505520747, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505520765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505521249, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505522596, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505522613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505522619, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1709471505523911, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709471505523930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505523933, "dur":16916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709471505540870, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1709471505540901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709471505540905, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1709471505541778, "dur":1662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505410747, "dur":861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505411609, "dur":3681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505415297, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709471505415339, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505415408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505417781, "dur":411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709471505418206, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1709471505418220, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505418252, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505418683, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1709471505420354, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505420378, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505420394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505420398, "dur":37949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505458364, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505458426, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505458612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505458669, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505462531, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505462544, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505462573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505462577, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505464394, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505464409, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505464455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505464460, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505465834, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505465846, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505466300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505466305, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505469764, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505469779, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505469797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505469802, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505470806, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505470820, "dur":869, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505471697, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505471705, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505472290, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505472306, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505472325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505472330, "dur":21973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709471505494323, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505494352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505494476, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505495125, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505495144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505495462, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505497158, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505497177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505497183, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505498571, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505498593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505498731, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505500002, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505500015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505500019, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505500592, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505500610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505501285, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505506684, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505506705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505506776, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505509306, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505509327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505509333, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505511531, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505511555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505511564, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505512747, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505512764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505513015, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1709471505515299, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1709471505515319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505515328, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1709471505516785, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505516803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505516901, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1709471505518546, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.caw" }}
+,{ "pid":12345, "tid":2, "ts":1709471505518564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505518574, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.caw" }}
+,{ "pid":12345, "tid":2, "ts":1709471505520747, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505520766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505521266, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505522625, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505522643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505522725, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.vis" }}
+,{ "pid":12345, "tid":2, "ts":1709471505523668, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1709471505523685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505523690, "dur":17351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1709471505541067, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709471505541097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709471505541102, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709471505542079, "dur":1371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505410736, "dur":867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505411603, "dur":3710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505415313, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1709471505415344, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505415392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505417079, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1709471505418187, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1709471505418203, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505418259, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505419602, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1709471505420483, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505420508, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505420603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505432970, "dur":8941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505441930, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505441949, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505441970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505441975, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505444539, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505444557, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505444576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505444580, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505445245, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505445257, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505445277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505445281, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505446182, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505446201, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505446272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505446276, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505447164, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505447179, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505447199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505447204, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505448064, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505448077, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505448098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505448102, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505449021, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505449040, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505449058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505449067, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505450089, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505450105, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505450123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505450128, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505451016, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505451029, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505451050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505451055, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505452751, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505452855, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505452881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505452887, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505453879, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505453898, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505453919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505453970, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505455249, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505455541, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505455987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505455991, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505457037, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505457101, "dur":1511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505458666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505458672, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505462469, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505462746, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505463310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505463314, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505465704, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505465717, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505465771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505465776, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505468091, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505468106, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505468172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505468201, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505472371, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505472384, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505472408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505472412, "dur":20785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709471505493215, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505493244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505493626, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505494985, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505495021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505495027, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505496411, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505496434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505496440, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505497585, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1709471505497619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505497624, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1709471505498211, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505498229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505498234, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505499485, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505499525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505499531, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505500590, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505500610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505501282, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505506631, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505506651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505506657, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505508913, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.vis" }}
+,{ "pid":12345, "tid":3, "ts":1709471505508935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505509043, "dur":303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.vis" }}
+,{ "pid":12345, "tid":3, "ts":1709471505509357, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505509378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505509383, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505512086, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505512105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505512163, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1709471505513894, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505513916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505513922, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.caw" }}
+,{ "pid":12345, "tid":3, "ts":1709471505515498, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1709471505515514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505515522, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1709471505516767, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.vis" }}
+,{ "pid":12345, "tid":3, "ts":1709471505516785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505516905, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.vis" }}
+,{ "pid":12345, "tid":3, "ts":1709471505518426, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505518445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505518454, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505520756, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1709471505520772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505521252, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1709471505522597, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505522617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505522622, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1709471505524072, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1709471505524133, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505524419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505524425, "dur":16415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1709471505540865, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1709471505540901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709471505540905, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1709471505541778, "dur":1658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505410767, "dur":846, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505411613, "dur":3676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505415298, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1709471505415354, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505415400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505416998, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1709471505418158, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1709471505418180, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505418202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505418207, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1709471505419195, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1709471505419217, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505419273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505419277, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1709471505420762, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505420779, "dur":12158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505432946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505432996, "dur":8917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505441928, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505441951, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505441971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505441975, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505444536, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505444551, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505444572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505444576, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505445249, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505445262, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505445277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505445284, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505446186, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505446207, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505446283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505446288, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505447154, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505447171, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505447195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505447200, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505448088, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505448105, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505448154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505448158, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505449099, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505449118, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505449405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505449409, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505450101, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505450113, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505450137, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505450147, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505451099, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505451119, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505451155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505451160, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505452907, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505452921, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505452981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505452985, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505453922, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505453936, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505453969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505453973, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505455553, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505455625, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505455982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505455987, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505456916, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505456974, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505457000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505457004, "dur":5288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505462307, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505462402, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505462424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505462428, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505463467, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505463480, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505463541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505463548, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505465621, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505465637, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505465656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505465660, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505467946, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505467959, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505467978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505467982, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505470542, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505470556, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505470580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505470598, "dur":19735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709471505490346, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1709471505490371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505490389, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1709471505493757, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505493829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505494089, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505495063, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505495082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505495087, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505496484, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505496508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505496861, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505497583, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505497602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505497616, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505498953, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505498966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505499213, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505500420, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505500445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505500468, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505501473, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505501494, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505501504, "dur":5391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505506909, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1709471505506927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505508149, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1709471505509951, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505509980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505509985, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505512169, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1709471505512187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505512206, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1709471505513879, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505513900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505513905, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505515443, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505515474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505515490, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505517507, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505517525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505517531, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505518659, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1709471505518676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505519000, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1709471505520516, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505520534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505520543, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1709471505521499, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505521518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505521817, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.caw" }}
+,{ "pid":12345, "tid":4, "ts":1709471505522734, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505522767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709471505522784, "dur":20508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1709471505543317, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1709471505543320, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505410793, "dur":824, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505411617, "dur":3676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505415297, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1709471505415367, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505415425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505417017, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1709471505418197, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1709471505418218, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505418264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505418689, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1709471505420358, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1709471505420378, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505420397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505420400, "dur":14252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1709471505434675, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505434701, "dur":4836, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505439551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505439959, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505442097, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505442112, "dur":1732, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505443853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505443862, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505444673, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505444693, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505444764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505444787, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505445643, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505445657, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505445684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505445688, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505447133, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505447153, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505447179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505447184, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505448028, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505448045, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505448066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505448071, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505449023, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505449036, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505449055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505449059, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505450231, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505450248, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505450496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505450501, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505451134, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505451154, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505451196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505451199, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505453340, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505453353, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505453371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505453374, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505454019, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505454036, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505454055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505454059, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505455347, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505455405, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505455464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505455474, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505456272, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505456359, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505456527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505456531, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505458833, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505458951, "dur":1740, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505460701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505460709, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505462685, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505462939, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505463311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505463316, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505465586, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505465601, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505465626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505465632, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505467940, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505467955, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505467974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505467980, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505470531, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505470546, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505470577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505470598, "dur":19651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505490266, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505490284, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505490313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505493124, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709471505493906, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.caw" }}
+,{ "pid":12345, "tid":5, "ts":1709471505493924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505494099, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.caw" }}
+,{ "pid":12345, "tid":5, "ts":1709471505495096, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.vis" }}
+,{ "pid":12345, "tid":5, "ts":1709471505495113, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505495473, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.vis" }}
+,{ "pid":12345, "tid":5, "ts":1709471505496187, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1709471505496209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505496226, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1709471505497137, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1709471505497158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505497174, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1709471505498519, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.caw" }}
+,{ "pid":12345, "tid":5, "ts":1709471505498538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505498544, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e3/e37098b13a05efc6b1efec617bf63931.caw" }}
+,{ "pid":12345, "tid":5, "ts":1709471505499541, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.vis" }}
+,{ "pid":12345, "tid":5, "ts":1709471505499561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505499636, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.vis" }}
+,{ "pid":12345, "tid":5, "ts":1709471505500314, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505500332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505500338, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505501318, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505501338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505501353, "dur":5641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505507008, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1709471505507027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505508155, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1709471505509997, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505510019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505510024, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505512517, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1709471505512536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505512541, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1709471505514127, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505514144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505514484, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505516577, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1709471505516599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505516606, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1709471505517574, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.vis" }}
+,{ "pid":12345, "tid":5, "ts":1709471505517602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505517687, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.vis" }}
+,{ "pid":12345, "tid":5, "ts":1709471505518389, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1709471505518407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505518423, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1709471505520835, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505520855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505521255, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1709471505522616, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.caw" }}
+,{ "pid":12345, "tid":5, "ts":1709471505522636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505522642, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.caw" }}
+,{ "pid":12345, "tid":5, "ts":1709471505523900, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709471505523927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709471505523931, "dur":18125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709471505542074, "dur":1356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505410823, "dur":798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505411621, "dur":3673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505415297, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1709471505415338, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505415377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505417017, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1709471505418258, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1709471505418276, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505418302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505418689, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1709471505420343, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505420362, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505420379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505420399, "dur":20024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505440443, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505440461, "dur":1291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505441761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505441773, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505444024, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505444046, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505444425, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505444435, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505444840, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505444852, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505445094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505445098, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505445728, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505445742, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505445760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505445763, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505446383, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505446476, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505446495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505446499, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505447797, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505447825, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505447844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505447848, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505448469, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505448487, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505448528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505448532, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505449536, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505449550, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505449838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505449842, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505450230, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505450244, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505450498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505450502, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505451175, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505451189, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505451244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505451248, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505452924, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505452938, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505452980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505452984, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505453922, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505453938, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505453968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505453973, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505455482, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505455557, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505455990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505455994, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505456905, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505456970, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505456994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505457002, "dur":5322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505462339, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505462356, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505462378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505462384, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505463471, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505463487, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505463545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505463548, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505467939, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505467954, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505467974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505467980, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505470525, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505470536, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505470555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505470559, "dur":19850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709471505490422, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505490449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505493640, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505494932, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505494951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505494982, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505496484, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505496513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505496862, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505497196, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1709471505497230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505497236, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1709471505498659, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1709471505498689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505498731, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1709471505499705, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505499724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505499753, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505501347, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1709471505501378, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505501388, "dur":5505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d3/d3cfbfbf8c3e4ac178bb80559e900fdc.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1709471505506912, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505506929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505508146, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505509991, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505510018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505510028, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505512067, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505512088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505512168, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505513877, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505513897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505513902, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505515515, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505515534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505515539, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505517449, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1709471505517469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505517475, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1709471505518565, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505518635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505518996, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.vis" }}
+,{ "pid":12345, "tid":6, "ts":1709471505520478, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505520500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505520523, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505521738, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505521757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505521824, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505523308, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505523320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505523324, "dur":16550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1709471505539890, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1709471505539914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505539920, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1709471505541433, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1709471505541449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709471505541453, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1709471505542074, "dur":1353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505410847, "dur":788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505411635, "dur":3656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505415298, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1709471505415398, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505415428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505417114, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1709471505418153, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1709471505418167, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505418187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505418204, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1709471505419087, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1709471505419106, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505419372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505419604, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1709471505420551, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505420572, "dur":12364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505432946, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505432993, "dur":8924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505441934, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505441956, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505441977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505441981, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505444701, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505444714, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505444761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505444765, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505445648, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505445662, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505445687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505445706, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505447310, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505447327, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505447359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505447363, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505448035, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505448049, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505448069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505448073, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505448999, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505449014, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505449034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505449038, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505450160, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505450174, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505450192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505450201, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505451105, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505451120, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505451155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505451159, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505452864, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505452883, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505452907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505452914, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505453852, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505453866, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505453887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505453892, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455113, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455134, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455160, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455550, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455639, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505455993, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505456910, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505456976, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505456998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505457002, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505462301, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505462572, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505462598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505462603, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505464423, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505464436, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505464519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505464524, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505466403, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505466425, "dur":1337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505467771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505467777, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505470500, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505470517, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505470541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505470549, "dur":19703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709471505490267, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1709471505490325, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505490366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505493109, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1709471505493475, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505493518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505493630, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ff/ff74ed1a028f6dda73b676c5e48e4830.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505494908, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505494946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505494972, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/f8/f851c2f7c79181cfc856b5892ea3c69f.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505496298, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505496317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505496323, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/ea/eadf47c947c1a0cd5a158b9c54e5e19e.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505497474, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505497502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505497509, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/e6/e6884695020cf107d3bc80554d75e70e.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505498635, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505498656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505498700, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/df/df30b28ee90d4a650935600605cac152.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505500422, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505500443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505500448, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/d5/d52e6f524971bd55847a8910dbafaa48.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505501494, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.vis" }}
+,{ "pid":12345, "tid":7, "ts":1709471505501510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505502079, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.vis" }}
+,{ "pid":12345, "tid":7, "ts":1709471505503950, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505503965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505503978, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505504669, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505504682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505504687, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505504918, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505504951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505504955, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505506087, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1709471505506101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505506107, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c5/c523828b011bf47fd2445a6c66fc7518.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1709471505508791, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505508825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505508848, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/c0/c0d1e3e39a0ac65ae98dedf8474682ac.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505510069, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505510087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505510092, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505512480, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505512501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505512506, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/9a/9a0749836a53ef3bf87990f091956adb.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505514204, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505514225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505514492, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505515368, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.vis" }}
+,{ "pid":12345, "tid":7, "ts":1709471505515388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505515473, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.vis" }}
+,{ "pid":12345, "tid":7, "ts":1709471505516601, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505516618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505516623, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7c/7c902c31d39c4684210cdfd34b30d61d.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505517586, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505517651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505517678, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/4c/4c900d221cd38a156ee0ecac0dc61848.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1709471505520518, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505520555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505520565, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505521556, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.vis" }}
+,{ "pid":12345, "tid":7, "ts":1709471505521573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505521820, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.vis" }}
+,{ "pid":12345, "tid":7, "ts":1709471505522393, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505522405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505522415, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/17/17e08ada54daddf77017753a1733cb4b.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1709471505523833, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505523852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505523857, "dur":17666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.caw" }}
+,{ "pid":12345, "tid":7, "ts":1709471505541542, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1709471505541596, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505541652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709471505541656, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1709471505542159, "dur":1294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505410868, "dur":778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505411646, "dur":3646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505415298, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1709471505415342, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505415383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505417011, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1709471505418182, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1709471505418248, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505418513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505418518, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1709471505419197, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709471505419215, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505419233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505419608, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709471505420455, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1709471505420492, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505420604, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505432964, "dur":76810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1709471505509789, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1709471505509809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505509815, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a76922f4c834bd255039c96586e89ba3.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1709471505511997, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.caw" }}
+,{ "pid":12345, "tid":8, "ts":1709471505512017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505512022, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/a7/a73f6f6f118ce8255bae3333d1f7d36e.caw" }}
+,{ "pid":12345, "tid":8, "ts":1709471505512671, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.vis" }}
+,{ "pid":12345, "tid":8, "ts":1709471505512691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505513023, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.vis" }}
+,{ "pid":12345, "tid":8, "ts":1709471505513806, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1709471505513827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505513845, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/93/93b6fda7f7f5cc4769ee3e85dfde0eea.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1709471505515310, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.caw" }}
+,{ "pid":12345, "tid":8, "ts":1709471505515346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505515352, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/7f/7f493656511b3f4e2d92e03514fff138.caw" }}
+,{ "pid":12345, "tid":8, "ts":1709471505516771, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1709471505516790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505516896, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/57/57c779d6d2b73bac8c723e31fa731f80.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1709471505518579, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1709471505518636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505519009, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/30/302379321ff597f0456812deb53c4831.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1709471505521366, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1709471505521385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505521806, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/25/2519b0d434fa0a8f6a850bbc2bb87b41.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1709471505522748, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1709471505522767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505522789, "dur":17079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/GI/level0/09/099260b8a21875b8e3ef053ac334f0d7.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1709471505539888, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1709471505539952, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505539974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505539978, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1709471505540864, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/3DMultiplayerShooter/Fairies and Trolls_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1709471505540901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709471505540905, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/3DMultiplayerShooter/Fairies and Trolls_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1709471505541759, "dur":1666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709471505547112, "dur":3766, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1709471505557743, "dur": 1035, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709471505557655, "dur": 1150, "ph": "X", "name": "Write chrome-trace events", "args": {} },
